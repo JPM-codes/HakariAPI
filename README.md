@@ -35,7 +35,7 @@ public class ExampleMain extends JavaPlugin implements Listener {
         try {
             provider.init();
             query = new MySQLQuery(provider);
-            query.createTable(CREATE_TABLE); // Create table if it doesn't exist
+            query.createTable(CREATE_TABLE);
             getLogger().info("Database connection established.");
         } catch (Exception e) {
             e.printStackTrace();
