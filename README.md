@@ -3,8 +3,8 @@
 <div>
     How to usage?
 </div>
-````java
 
+````java
     public class ExampleQuery { 
         public static final String CREATE_TABLE = "CREATE TABLE IF NOT EXISTS Example (" +
             "id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, " +
